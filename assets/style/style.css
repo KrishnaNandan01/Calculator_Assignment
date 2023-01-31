@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(198, 195, 195);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+input{
+    width: 70%;
+    height: 30px;
+}
+button{
+    width: 80px;
+    height: 30px;
+    padding: 0px 20px;
+    margin-top: 5px;
+    background-color: rgb(84, 84, 222);
+    color: white;
+}
+button:active{
+    background-color: rgb(198, 197, 197);
+    transition: 500ms;
+}
+.calculator{
+    background-color: white;
+    width: 25%;
+    padding: 10px;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+}
